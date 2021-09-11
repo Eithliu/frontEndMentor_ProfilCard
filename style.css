@@ -1,0 +1,60 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+body {
+    background-image:  url("./images/bg-pattern-card.svg");
+    background-repeat : no-repeat;
+    background-size: 500%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+
+.muted {
+    color: hsl(0, 0%, 59%);
+    font-weight: normal !important;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.bordure {
+    border-radius: 10px;
+
+}
+
+.photoBorder {
+    border-radius: 100px !important;
+    border: solid 5px #fff;
+    display: flex !important;
+    justify-content: center;
+    position: absolute;
+    top: -35px;
+}
+
+.centre {
+    display: flex !important;
+    justify-content: center;
+}
+
+.pouet {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.zeShadow {
+    box-shadow: 15px 15px 100px rgb(110, 110, 110) !important;
+}
+
+.spanno {
+    display: inline;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: .3em !important;
+    font-weight: normal !important;
+    color: hsl(0, 0%, 59%);
+}
+
+.noLine {
+    border-right: none !important;
+}
